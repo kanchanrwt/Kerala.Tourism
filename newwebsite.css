@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.right1 {
+    width: 100%;
+    height: 100vh;
+    /* background property */
+    background-image: url(imges/kerala.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+.right1 text {
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;
+    text-indent: 60px;
+    word-spacing: 10px;
+    letter-spacing: 15px;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+
+} */
+
+.main {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(242, 177, 56, 0.8);
+    position: fixed;
+}
+
+.logoimg {
+    width: 150px;
+    height: 70px;
+    padding: 13px;
+}
+
+.logo {
+    width: 30%;
+    /* line-height: 100px; */
+    /* background-color: rgba(104, 66, 210, 0.543); */
+    text-align: center;
+    float: left;
+}
+
+.list {
+    width: 70%;
+    line-height: 100px;
+    /* background-color: rgba(77, 73, 185, 0.2); */
+    float: right;
+    direction: rtl;
+}
+
+li {
+    list-style-type: none;
+    color: #ffffff;
+    border: solid 2px rgb(251, 163, 0);
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: rgb(255, 166, 0);
+    color: aliceblue;
+
+}
+
+.kerala {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    font-variant: normal;
+    font-weight: 200;
+
+}
+
+.god {
+    color: bisque;
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-variant: inherit;
+    font-weight: 100;
+
+}
+
+main {
+    width: 90%;
+    margin: 60px auto;
+    border: 1px none slateblue;
+    color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    grid-auto-rows: 250px;
+
+}
+
+.div1 {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+
+}
+
+.div2 {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+
+
+}
+
+.div3 {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+}
+
+.div4 {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+}
+
+.div5 {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+    /* grid-row-start: 1; */
+    /* grid-row-end: 4; */
+    /* grid-row: 1/2;
+    grid-column: 2/3; */
+}
+
+.div6 {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+}
+
+.p1 {
+    color: gray;
+    font-style: normal;
+    text-align: center;
+}
+
+.p2 {
+    color: gray;
+    font-style: normal;
+    text-align: center;
+}
+
+.p3 {
+    color: gray;
+    font-style: normal;
+    text-align: center;
+}
+
+.p4 {
+    color: grey;
+    font-style: normal;
+    text-align: center;
+}
+
+.p5 {
+    color: grey;
+    font-style: normal;
+    text-align: center;
+}
+
+.p6 {
+    color: grey;
+    font-style: normal;
+    text-align: center;
+}
+
+.dis {
+    margin-top: 20px;
+    font-size: xx-large;
+    color: rgb(0, 95, 139);
+    font-style: oblique;
+    text-align: center;
+
+}
+
+.bg {
+
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 50px;
+    color: blueviolet;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px lightseagreen;
+
+
+}
+
+.container {
+    width: 100%;
+    height: 80vh;
+    border: 1px none slateblue;
+    color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 30px;
+    grid-auto-rows: 250px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.div11 {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+
+}
+
+.div12 {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+
+}
+
+
+.div13 {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+
+}
+
+.div14 {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+
+}
+
+
+.div15 {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+}
+
+.div16 {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+}
+
+.about {
+    margin: auto;
+    background-color: aquamarine;
+    font-size: xx-large;
+    font-weight: 100px;
+    font-style: normal;
+    text-align: center;
+    justify-content: center;
+    color: magenta;
+    text-shadow: 2px 2px 1px;
+
+
+
+}
+
+grid {
+    box-sizing: content-box;
+    width: 50%;
+    height: 30px auto;
+    border: 1px none rgb(38, 8, 231);
+    color: black;
+    display: grid;
+    grid-template-rows: repeat(4, 150px);
+    grid-template-columns: repeat(2, 1fr);
+
+    grid-row-gap: 200px;
+    grid-column-gap: 30px;
+    grid-auto-rows: 150px;
+    margin: 20px auto;
+    /* padding: 20px; */
+
+}
+
+/*  ---------------------------------------- footer Map -------------------------------------------------------- */
+.map {
+    width: 100%;
+    height: 65vh;
+    /* -------------background property -----------------*/
+
+    background-image: url(imges/world\ map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* ---------------------------------------form property ------------------------------------------------- */
+
+
+.form {
+    background-color: rgb(115, 227, 227);
+    height: auto;
+    width: 15%;
+    z-index: 1;
+
+}
+
+.button {
+    cursor: pointer;
+    background-color: rgb(0, 255, 174);
+    color: #a11313;
+}
+
+.topbtn{
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(242, 177, 56);
+    border: 1px solid rgb(242, 177, 56);
+    border-radius: 10px;
+}
+
+.topbtn:hover{
+    background-color: rgb(255, 166, 0);
+}
+
+#roundimg{
+    width: 200px;
+    height: 200px;
+    border: #807a7a 4px solid;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.bgaboutus{
+    background-color: #807a7a;
+}
+
+/* ---------------------------------------------------- Media Query ---------------------------------------------------------------- */
+@media (max-width: 767px) {
+    .footer .content {
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+    }
+  
+    .footer {
+      position: unset;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+    .footer .content,
+    .footer {
+      font-size: 14px;
+    }
+  }
+  
+  @media (orientation: landscape) and (max-height: 500px) {
+    .footer {
+      position: unset;
+    }
+  }
+
+
